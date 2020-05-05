@@ -27,7 +27,7 @@ public class Patient {
 	  
 	} 
 	
-	//Insert
+	//Insert patient to the system
 	public String insertPatientDetails(String first_name, String last_name, String address, String email) 
 	{   
 		String output = ""; 
@@ -69,7 +69,7 @@ public class Patient {
 	 return output;  
 	}
 	
-	//Read
+	//Read all the patients in the list
 	public String readPatientDetails()  
 	{   
 		String output = ""; 
@@ -128,7 +128,7 @@ public class Patient {
 	  return output;  
 	  } 
 	
-	//Update
+	//Update selected patient in the list
 	public String updatePatientDetails( String ID, String first_name, String last_name, String address, String email)  
 	{   
 		String output = ""; 
@@ -169,7 +169,7 @@ public class Patient {
 	  
 	}
 	
-	//Delete
+	//Delete selected patient from the list
 	public String deletePatientDetails(String patientID)  
 	{   
 		String output = ""; 
